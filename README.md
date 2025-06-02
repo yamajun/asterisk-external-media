@@ -19,7 +19,7 @@ the audio from a bridge using the Google Speech APIs.
     - `AWS_SECRET_ACCESS_KEY`
     - `AWS_REGION`
 
-Run `npm install` from the top of the source tree.
+Run `npm install` and `npm audit fix` from the top of the source tree.
 This will install the required npm packages including `node-ari-client` and `@google-cloud/speech`.
 You can then run the transcriber as `bin/ari-transcriber`.  If you add the `-g`
 option to `npm install` to install system wide, you can just run `ari-transcriber`. 
